@@ -1,38 +1,33 @@
-.App {
+.sena{
+  margin-bottom: 100px;
+}
+.sena .card{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sena .card b{
+  font-size: 44px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sena .card span{
+  font-size: 36px;
+  color: darkgray;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.title-text{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.title-text h1{
+  text-align: center;
+  font-weight: 400;
+  font-size: 50px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title-text p{
+  text-align: center;  
+}
+footer img {
+  width: 60px;
+}
+footer p {
+  color: rgb(102, 102, 102);
+  margin-bottom: 5px;
 }
